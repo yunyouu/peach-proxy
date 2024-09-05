@@ -1,14 +1,11 @@
 {
   "name": "peach-proxy",
   "scripts": {
-    "dev": "tsx watch src/index.ts"
+    "dev": "node --watch src/index.js"
   },
+  "type": "module",
   "dependencies": {
     "@hono/node-server": "^1.12.2",
     "hono": "^4.5.11"
-  },
-  "devDependencies": {
-    "@types/node": "^20.11.17",
-    "tsx": "^4.7.1"
   }
 }
